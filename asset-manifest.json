@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.9d7707e7.css",
+    "main.js": "/react-gh-pages/static/js/main.1983ccaa.js",
+    "static/js/787.5aa5b9ed.chunk.js": "/react-gh-pages/static/js/787.5aa5b9ed.chunk.js",
+    "static/media/member2.jpg": "/react-gh-pages/static/media/member2.8d7e61e2199e50cf2d6e.jpg",
+    "static/media/image.jpg": "/react-gh-pages/static/media/image.dd7a5e1de28a876e823a.jpg",
+    "static/media/online-store.jpg": "/react-gh-pages/static/media/online-store.3a7fa49c6b57236f2259.jpg",
+    "static/media/member1.jpg": "/react-gh-pages/static/media/member1.6c1174c9068e4157c3ff.jpg",
+    "static/media/foodapp.jpg": "/react-gh-pages/static/media/foodapp.47f239e4c8a71f1e8732.jpg",
+    "static/media/member3.jpg": "/react-gh-pages/static/media/member3.c855761e2e9a95278e2a.jpg",
+    "static/media/fintech.jpg": "/react-gh-pages/static/media/fintech.975023131f41696adccf.jpg",
+    "static/media/logistic.png": "/react-gh-pages/static/media/logistic.8f7e7d9a4edad9ccfbe4.png",
+    "static/media/manageIcon.png": "/react-gh-pages/static/media/manageIcon.d60d6470d91a8b679594.png",
+    "static/media/developIcon.png": "/react-gh-pages/static/media/developIcon.96d77af19975a317524f.png",
+    "static/media/designIcon.png": "/react-gh-pages/static/media/designIcon.8959ff3cc3dbe02c6aa1.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.9d7707e7.css.map": "/react-gh-pages/static/css/main.9d7707e7.css.map",
+    "main.1983ccaa.js.map": "/react-gh-pages/static/js/main.1983ccaa.js.map",
+    "787.5aa5b9ed.chunk.js.map": "/react-gh-pages/static/js/787.5aa5b9ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d7707e7.css",
+    "static/js/main.1983ccaa.js"
+  ]
+}
