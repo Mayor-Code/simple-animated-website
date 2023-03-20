@@ -1,0 +1,118 @@
+.cube {
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    transform-style: preserve-3d;
+    transform: rotateX(-30deg);
+    animation: spin 4s linear infinite;
+    z-index: -10;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+
+.cube div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.cube div span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(black, indigo);
+    transform: rotateY(calc(90deg * var(--i))) translateZ(75px);
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(43, 5, 71);
+    transform: rotateX(90deg) translateZ(75px);
+}
+
+.top::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    transform: translateZ(-190px);
+    filter: blur(39px);
+
+}
+
+/** animation */
+
+
+
+
+@media (min-width: 1024px) {
+    .cube {
+        width: 300px;
+        height: 300px;
+    }
+
+    .cube div span {
+        transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
+    }
+
+    .top {
+        transform: rotateX(90deg) translateZ(150px);
+    }
+
+    .top::before {
+        transform: translateZ(-380px);
+    }
+
+    .from-right {
+        transform: translateX(200px);
+    }
+
+    .from-left {
+        transform: translateX(-200px);
+    }
+
+    .from-right {
+        transform: translateX(200px);
+        opacity: 0;
+        transition: opacity 400ms ease-in, transform 600ms ease-in;
+    }
+
+    .from-left {
+        transform: translateX(-200px);
+        opacity: 0;
+        transition: opacity 400ms ease-in, transform 600ms ease-in;
+    }
+
+    .from-left.slide,
+    .from-right.slide {
+        transform: translateX(0);
+    }
+
+    .from-right.appear,
+    .from-left.appear {
+        opacity: 1;
+    }
+}
