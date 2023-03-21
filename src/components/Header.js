@@ -14,14 +14,14 @@ function Header() {
   }
   let navIcon = isOpen ? <AiOutlineClose /> : <AiOutlineMenuUnfold />;
   return (
-    <div className="Header text-white flex items-center justify-between max-w-vw mx-auto py-4 lg:py-8 font-PT-Sans-Narrow relative">
+    <div className="Header text-white flex items-center justify-between max-w-vw mx-auto py-4 lg:py-8 font-PT-Sans-Narrow relative px-4">
       <button
         className="nav-icon md:hidden hover:border-pale-azure text-xl p-2 border rounded active:scale-75 mr-4 transition-all duration-300"
         onClick={openNav}
       >
         {navIcon}
       </button>
-      <div className="logo text-5xl text-Iris cursor-pointer font-satisfy w-full md:w-auto text-center md:text-left">
+      <div className="logo  text-3xl sm:text-5xl text-Iris cursor-pointer font-satisfy w-full md:w-auto text-center md:text-left">
         crossswirex
       </div>
       <div className="Navbar hidden md:block font-semibold">
@@ -75,9 +75,14 @@ function Header() {
               Projects
             </a>
           </li>
-          <li className="hover:bg-Iris rounded">
+          <li className="hover:bg-Iris rounded  border-b border-tropical-indigo">
             <a href="Team" className="py-2 inline-block w-full">
               Team
+            </a>
+          </li>
+          <li className="hover:bg-Iris rounded">
+            <a href="#contact" className="py-2 inline-block w-full">
+              Contact
             </a>
           </li>
         </ul>
